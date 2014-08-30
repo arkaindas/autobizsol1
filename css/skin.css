@@ -9,18 +9,20 @@ nav a:hover,
 #options li a.selected,
 a.zoom,
 #contact-form p input#submit{
-background-color:#2E8A5C !important;
+background-color:#669999 !important;
 }
-
+#contact-form p input#submit{
+width:99%;
+}
 /*color */
 #home h1 span,
 #contact .sub_header h2,
 #about .sub_header h2,
 #response{
-color:#2E8A5C !important;
+color:#669999 !important;
 }
 
 /*border*/
 .vaidate_error{
-border:1px solid #2E8A5C !important;
+border:1px solid #669999 !important;
 }
