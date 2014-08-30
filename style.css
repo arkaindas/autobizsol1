@@ -80,7 +80,7 @@ background-position:bottom center;
 }
 
 #home h1 span{
-color: #2E8A5C;
+color: #669999;
 }
 
 #home h3{
@@ -131,7 +131,7 @@ border-bottom: 1px solid #d7d7d7;
 .services a:hover .serv_icon{
 background-color:#666666!important;
 }
-
+	
 .serv_icon{
 background-image:url("images/content_bg.png");
 transition: background 1s ease 0s;
@@ -277,8 +277,14 @@ border-top:1px solid #282828;
 	font-family: Helvetica, sans-serif;
 	margin: 10px 0px 10px 0px;
 	border: 1px solid #393939;
-	background-color:#282828;
 	color:#fff;
+}
+
+#contact-form input{
+		background-color:#303F3f;
+}
+#contact-form textarea {
+		background-color:#3C4F4F;
 }
 #contact-form input {
 	width:95%;

@@ -126,13 +126,13 @@ margin-bottom:30px;
 }
 
 #options li a:hover {
-  background-color: #2E8A5C;
+  background-color: #669999;
    background-image:url(../images/content_bg.png);
   text-decoration:none;
 }
 
 #options li a:active {
-  background-color: #39D;
+  background-color: #669999;
 }
 
 #options li a.selected {
