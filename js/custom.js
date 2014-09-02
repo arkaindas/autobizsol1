@@ -65,7 +65,7 @@ jQuery(this).find('img').stop().animate({opacity: "1"}, 'fast');
 // Nav Document
 jQuery(document).ready(function() {
 	jQuery('nav').onePageNav({
-//	changeHash: false,
+	changeHash: false,
 	begin: function() {
 	console.log('start')
 	},
