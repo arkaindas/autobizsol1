@@ -176,17 +176,33 @@ color:#AEAEAE;
 
 /* About */
 #about{
-background-image:url(images/content_bg.png);
+/*background-image:url(images/content_bg.png);*/
+background-image: url("images/about_pattern.png");
 background-repeat:repeat;
 	min-height:100px;
 	padding:60px 0px;
 }
+#about h2{
+  background-image: url("images/content_bg.png");
+    color: #ffffff !important;
+    display: table;
+    float: inherit;
+    margin: 0 auto 30px;
+    text-align: center !important;
+}
 
 #about .sub_header h2{
-background-color: #EBF3FA;
-    color: #A6C8FF !important;
+    background-image: url("images/content_bg.png");
+    color: #ffffff !important;
+    display: table;
+    float: inherit;
+    margin: 0 auto 30px;
+    text-align: center !important;
     
 }
+
+
+
 
 #about .sub_header h3{
 color:#393939 !important;
@@ -200,7 +216,7 @@ border-radius:5px 5px 0px 0px;
 }
 
 .about_typo p{
-color:#fff !important;
+color:#333 !important;
 }
 
 .progress {
@@ -236,7 +252,7 @@ color:#fff;
 color:#aeaeae;
 }
 
-#portfolio h2{
+#portfolio h2,#contact h2{
 background-image:url("images/content_bg.png");
     color: #FFFFFF !important;
     display: table;
@@ -256,18 +272,27 @@ border-bottom: 1px solid #d7d7d7;
  
 /* Conatct */
 #contact{
-background-image:url(images/footer_bg.png);
+/*background-image:url(images/footer_bg.png);
+background-repeat:repeat;
+min-height:100px;
+padding:60px 0px;*/
+background-image: url("images/about_pattern.png");
 background-repeat:repeat;
 min-height:100px;
 padding:60px 0px;
 }
 
 #contact .sub_header h2{
-background-color:#282828;
+    background-image: url("images/content_bg.png");
+    color: #ffffff !important;
+    display: table;
+    float: inherit;
+    margin: 0 auto 30px;
+    text-align: center !important;
 }
 
 #contact .sub_header h3{
-color:#bfbfbf;
+color:#333;
 border-bottom:1px solid #282828;
 border-top:1px solid #282828;
 }
@@ -319,7 +344,7 @@ border-top:1px solid #282828;
 	padding-top: 5px;
 	font-size:13px;
 	font-family: 'Open Sans', sans-serif;
-	color:#C0C0C0;
+	color:#333;
 }
 .vaidate_error {
 	border:1px solid;

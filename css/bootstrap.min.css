@@ -3607,6 +3607,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff5f5f5', end
 	-webkit-border-radius:4px;
 	-moz-border-radius:4px;
 	border-radius:4px;
+	border:1px solid #330033
 }
 .progress .bar {
 	width:0%;
