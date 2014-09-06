@@ -1,3 +1,10 @@
+//loader
+jQuery(window).load(function(){
+  jQuery('.loader').fadeOut();
+  jQuery('.blacksheet').fadeOut();
+  jQuery('.mainwrap').fadeIn();
+});
+
 //Portfolio Isotope Document
 jQuery(document).ready(function(){
 jQuery(function(){
