@@ -17,11 +17,12 @@ html{
 ul.loader{
   z-index:200;
   display: block;
-  position:absolute; top:50%; left:50%; margin:-40px 0 0 -160px;
+  position:absolute; top:50%; left:50%; margin:-40px 0 0 -91px;
   width: 500px;
 }
 
 .loader li{
+  border-radius: 20px;
   list-style: none;
   display: block;
   float:left;
