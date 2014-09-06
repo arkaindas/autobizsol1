@@ -80,6 +80,15 @@ jQuery(document).ready(function() {
 	console.log('stop')
 	}
 	});
+	jQuery('#dl-menu').onePageNav({
+	changeHash: false,
+	begin: function() {
+	console.log('start')
+	},
+	end: function() {
+	console.log('stop')
+	}
+	});
 	jQuery("a.example7").fancybox({
 	'titlePosition'	: 'inside'
 	});
