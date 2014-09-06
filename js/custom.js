@@ -76,10 +76,19 @@ jQuery(document).ready(function() {
 	jQuery("a.example7").fancybox({
 	'titlePosition'	: 'inside'
 	});
+	
+	// Responsive Menu
+	$("#dl-open-menu").click(function(){
+		$("#dl-menuopen").toggleClass("dl-menuopen");
+	});
+	$(".dl-menuwrapper li a").click(function(){
+		$("#dl-menuopen").removeClass("dl-menuopen");
+	});
+	
 });
 
 
-
+/*
 // Responsive Menu
 jQuery(function() {
 
@@ -103,5 +112,5 @@ jQuery("<select />").appendTo("nav");
 	window.location = $(this).find("option:selected").val();
 	});
 
-});
+});*/
 
