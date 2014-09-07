@@ -1,10 +1,10 @@
 //loader
-jQuery(window).load(function(){
-  jQuery('.loader').fadeOut();
-  jQuery('.blacksheet').fadeOut();
-  jQuery('.mainwrap').fadeIn();
-});
 
+jQuery(window).load(function(){
+  jQuery('.autobiz_loader').fadeOut();
+  jQuery('.autobiz_blacksheet').fadeOut();
+  jQuery('.autobiz_mainwrap').fadeIn();
+});
 //Portfolio Isotope Document
 jQuery(document).ready(function(){
 jQuery(function(){
@@ -129,4 +129,5 @@ jQuery("<select />").appendTo("nav");
 	});
 
 });*/
+
 
